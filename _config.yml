@@ -1,6 +1,6 @@
 theme: jekyll-theme-architect
 show_downloads: false
-title: Chippewa Software (ChipSoftTech)
+title: Chippewa Software
 description: microapps - extending the microservice idea to microfrontend development
 github:
   is_project_page: true
