@@ -1,11 +1,11 @@
 theme: jekyll-theme-architect
 show_downloads: false
-title: Micro Frontends
-description: extending the microservice idea to frontend development
+title: Chippewa Software (ChipSoftTech)
+description: microapps - extending the microservice idea to microfrontend development
 github:
   is_project_page: true
-  repository_url: https://github.com/neuland/micro-frontends
-google_analytics: UA-84095563-2
+  repository_url: https://github.com/ChipSoftTech/chipsofttech.github.io
+google_analytics: UA-XXXXX84095563-2
 exclude:
   - 2-composition-universal
   - 3-data-fetching
