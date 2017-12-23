@@ -12,7 +12,7 @@ const product = {
       name: 'Porsche-Diesel Master 419',
       image: './team-red/images/tractor-red.jpg',
       thumb: './team-red/images/tractor-red-thumb.jpg',
-      price: '66,00 €',
+      price: '66,000',
     },
     {
       sku: 't_fendt',
@@ -20,7 +20,7 @@ const product = {
       name: 'Fendt F20 Dieselroß',
       image: './team-red/images/tractor-green.jpg',
       thumb: './team-red/images/tractor-green-thumb.jpg',
-      price: '54,00 €',
+      price: '54,000',
     },
     {
       sku: 't_eicher',
@@ -28,7 +28,7 @@ const product = {
       name: 'Eicher Diesel 215/16',
       image: './team-red/images/tractor-blue.jpg',
       thumb: './team-red/images/tractor-blue-thumb.jpg',
-      price: '58,00 €',
+      price: '58,000',
     },
   ],
 };

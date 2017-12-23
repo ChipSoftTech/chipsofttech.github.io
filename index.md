@@ -76,7 +76,7 @@ Lets take the __buy button__ as an example. Team Product includes the button sim
     class BlueBuy extends HTMLElement {
       constructor() {
         super();
-        this.innerHTML = `<button type="button">buy for 66,00 €</button>`;
+        this.innerHTML = `<button type="button">buy for 66,000</button>`;
       }
       disconnectedCallback() { ... }
     }
@@ -109,9 +109,9 @@ If Team Product used a templating engine that features DOM diffing, like React, 
 To support this the Custom Element can implement the `attributeChangedCallback` and specify a list of `observedAttributes` for which this callback should be triggered.
 
     const prices = {
-      t_porsche: '66,00 €',
-      t_fendt: '54,00 €',
-      t_eicher: '58,00 €',
+      t_porsche: '66,000',
+      t_fendt: '54,000',
+      t_eicher: '58,000',
     };
 
     class BlueBuy extends HTMLElement {
@@ -208,7 +208,7 @@ Custom Elements are great for integrating components inside the browser. But whe
 To make server rendering work, the previous example is refactored. Each team has their own express server and the `render()` method of the Custom Element is also accessible via url.
 
     $ curl http://127.0.0.1:3000/blue-buy?sku=t_porsche
-    <button type="button">buy for 66,00 €</button>
+    <button type="button">buy for 66,000</button>
 
 The Custom Element tag name is used as the path name - attributes become query parameters. Now there is a way to server-render the content of every component. In combination with the `<blue-buy>`-Custom Elements something that is quite close to a __Universal Web Component__ is achieved:
 
