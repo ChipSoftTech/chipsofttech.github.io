@@ -1,22 +1,22 @@
 # Micro Apps
-**Extending the Microservice Paradigms to Web Development**
+**Extending the Micro Paradigms to Products**
 
 The actual site can be found at [chipsofttech.com](https://chipsofttech.com/).
 
 ## Author
 
-Brian Carter [@chipsofttech](https://twitter.com/chipsofttech)
+Chippewa Software [@chipsofttech](https://twitter.com/chipsofttech)
 
 ## Contribute
 
-The site is hosted via Github Pages (see `index.md`).
+The site is hosted via Github Pages.
 So feel free to contribute by submitting issues or pull requests.
 
 ## License
 
 The MIT License
 
-Copyright (C) 2017 [ChipSoftTech](http://www.chipsofttech.com/), USA
+Copyright (C) 2020 [ChipSoftTech](http://www.chipsofttech.com/), USA
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
